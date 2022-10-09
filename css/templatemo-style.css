@@ -22,7 +22,6 @@ a:focus {
 	text-decoration: none;
 }
 
-
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
@@ -60,8 +59,8 @@ body { overflow-x: hidden; }
 	/* padding: 45px 34px 15px 34px; */
 	text-transform: uppercase;
 	transition: all 0.3s ease;
-	padding: 10px 20px;
-	margin: 20px 5px;
+	padding: 3px 20px;
+    margin: 27px 5px;
 	border-radius: 10px;
 }
 .tm-nav li a.active,
@@ -352,7 +351,13 @@ body { overflow-x: hidden; }
 	color: white;
   }
   
+  .copyright a {
+	color: inherit;
+  }
 
+  .copyright a:hover {
+	text-decoration: underline;
+  }
 
 /*Section 2, index.html */
 .section-margin-top { margin-top: 100px; }
@@ -723,6 +728,11 @@ hr { border-top: 1px solid #111010; }
 .contact-social .tm-social-icon:last-child { margin-right: 0; }
 
 @media screen and (max-width: 1199px) {
+	
+element.style {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: -70px;
 	.tm-banner{
 		margin-top: 7%;
 	}
